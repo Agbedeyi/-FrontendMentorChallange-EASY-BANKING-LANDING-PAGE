@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: #737373;
+    font-size: large;
+}
+nav img{
+    max-width: 139px;
+    max-height:20px ;
+}
+nav button{
+    font-size: 20px;
+    border-radius: 100px;
+    border: none;
+    padding: 12px;
+    width: 170px;  
+    background-image: linear-gradient(to right,#00e68a,#009999);
+    color: white;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 880px;
+    background-color: #f2f2f2;
+}
+.img1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 800px;
+    height: 700px;
+}
+.img2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 690px;
+    height: 900px;
+    z-index: 1;
+}
+header h1{
+    position: absolute;
+    font-size: 60px;
+    width: 450px;
+    top: 170px;
+    left: 110px;
+    color: #262626;
+}
+header p{
+    position: absolute;
+    top: 370px;
+    left: 110px;
+    font-size: 19px;
+    width: 450px;
+    color: #666666;
+}
+header button{
+    position: absolute;
+    top: 480px;
+    left: 110px;
+    font-size: 20px;
+    border-radius: 100px;
+    border: none;
+    padding: 12px;
+    width: 170px;  
+    background-image: linear-gradient(to right,#00e68a,#009999);
+    color: white;
+    z-index: 2;
+}
+header div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color:  #e6e6e6;
+}
+.whyeasybank{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 130px;
+    background-color:  #e6e6e6;
+}
+.whyeasybank h2{
+    margin-top: 0;
+    font-size: 45px;
+    width: 500px;
+    color: #262626;
+}
+.whyeasybank p{
+    font-size: 20px;
+    width: 500px;
+    margin-top: 0;
+    color: #666666;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    padding-left: 130px;
+    padding-right: 110px;
+    background-color: #e6e6e6;
+    
+}
+.cardsimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    
+}
+.cardsimg img{
+    width: 72px;
+}
+.cardsimg h4{
+    font-size: 24px;
+    margin: 15px 0px;
+    color: #262626;
+}
+.cardsimg p{
+    font-size: 18px;
+    color: #666666;
+    text-align: justify;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    padding-right: 130px;
+    padding-left: 130px;
+    background-color: #f2f2f2;
+    height: 650px;
+    padding-top: 20px;
+    padding-bottom: 300px;
+}
+.article h2{
+    font-size: 35px;
+    color: #333333;
+    margin-top: 50px;
+}
+.articleimg{
+    display: flex;
+    flex-direction: row;
+   
+}
+.articleimg div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    margin-right: 17px;  
+    margin-top: 15px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+    
+}
+.articleimg img{
+    width: 275px;
+    height: 200px;
+    margin: 0;
+    border-radius: 15px;
+}
+.articleimg p, .articleimg h3{
+    padding: 0 25px;
+    margin: 10px;
+}
+.articleimg p{
+    color: #737373;
+}
+.articleimg h3{
+    color:  #404040;
+}
+.smallp{
+    font-size: 13px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #19194d;
+    height: 250px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+footer button{
+    font-size: 20px;
+    border-radius: 100px;
+    border: none;
+    padding: 12px;
+    width: 170px;  
+    background-image: linear-gradient(to right,#00e68a,#009999);
+    color: white;
+    height: 50px;
+}
+.footerinfo{
+    display:  flex;
+    
+}
+.social{
+    display: flex;
+    flex-direction: column;
+   
+}
+.socialicons img{
+    margin-top: 100px;
+    margin-right: 5px;
+}
+.aboutus{
+    display: flex;
+    flex-direction: column;
+}
+.aboutus a{
+    text-decoration: none;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    color: #cccccc;
+    font-size: 18px;
+}
+button:hover{
+    background-image: linear-gradient(to right,#00e68a,#00b3b3);
+}
